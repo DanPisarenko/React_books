@@ -1,0 +1,47 @@
+.Header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: tomato;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+body{
+    background-color: tan;
+}
+.ddd{
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+}
+.Card{
+    width: 400px;
+    height: 480px;
+    background-color: #fcc;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.btn_sm{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 96px;
+    height: 64px;
+    background-color: yellow;
+    text-decoration: none;
+    color: black;
+}
+.btn_sm:hover{
+    color: white;
+    background-color: #000;
+}
+.btn_sm:active{
+color: black;
+background-color: #fff;
+}
